@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7F1"
+    android:orientation="vertical"
+    android:contentDescription="Mother hugs her daughter"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:src="@drawable/mother" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:text="Happy Mother's Day"
+        android:textStyle="bold"
+        android:textColor="#643916"
+        android:layout_weight="1"
+
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_weight="1"
+
+        android:text="Thanks for making our home the happiest place in the world. I love you to bits."
+        android:textColor="#643916"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+
+
+</LinearLayout>
